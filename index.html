@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment 3</title>
+</head>
+<body>
+    <div class="container">
+        <h1>COVID-19 TRACKER</h1>
+        <input type="text" placeholder="Masukan Nama Negara" class="inputElement" />
+        <button class="btn">Get Data</button>
+        <br/>
+        <br/>
+        <div id="container">
+            <div class="activeCasesDiv">
+                <img src="images/active_cases.png" class="images" />
+                <br>Active Cases</br>
+                <p class="activeCases"></p>
+            </div>
+            <div class="newCasesDiv">
+                <img src="images/new_cases.png" class="images" />
+                <br>New Cases</br>
+                <p class="newCases"></p>
+            </div>
+            <div class="recoveredCasesDiv">
+                <img src="images/recovered.png" class="images" />
+                <br>Recovered Cases</br>
+                <p class="recoveredCases"></p>
+            </div>
+        </div>
+
+        <div id="container">
+            <div class="totalCasesDiv">
+                <img src="images/total_cases.png" class="images" />
+                <br>Total Cases</br>
+                <p class="totalCases"></p>
+            </div>
+            <div class="totalDeathsDiv">
+                <img src="images/total_deadth.png" class="images" />
+                <br>Total Deaths</br>
+                <p class="totalDeaths"></p>
+            </div>
+            <div class="totalTestsDiv">
+                <img src="images/total_test.png" class="images" />
+                <br>Total Tests</br>
+                <p class="totalTests"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

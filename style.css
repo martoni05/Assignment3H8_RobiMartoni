@@ -1,0 +1,105 @@
+body {
+    text-align: center;
+    align-items: center;
+    background: #ffffff;
+}
+
+.images{
+    margin-top: 25px;
+    width: 70px;
+    align-items: center;
+  }
+
+
+.btn {
+    padding: 15px 30px 15px 30px;
+    border: none;
+    border-radius: 10px;
+    background: #0066ff;
+    cursor: pointer;
+    font-size: 15px;
+    transition-duration: 0.5s;
+    color: white;
+    margin-left: 20px;   
+}
+
+input {
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    width: 500px;
+    height: 10px;
+}
+
+.container {
+    width: fit-content;
+    margin: auto;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 10PX;
+}
+
+#container > div {
+    width: 300px;
+    height: 200px;
+}
+
+.activeCasesDiv {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.2), 0 0px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.newCasesDiv {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.2), 0 0px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.recoveredCasesDiv {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.2), 0 0px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.totalCasesDiv {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.2), 0 0px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.totalDeathsDiv {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.2), 0 0px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.totalTestsDiv {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.2), 0 0px 4px 0 rgba(0, 0, 0, 0.2);
+}
